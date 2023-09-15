@@ -17,14 +17,14 @@ const Third = () => {
     return (
 
         <div>
-            <div className='flex'>
-                <div className='ml-12'>
+            <div className='lg:flex'>
+                <div className='lg:ml-12 store'>
                     <h1 className='text-3xl'>Store locator</h1>
                     <p className='mt-9'>Our consultants are available to host you in- <br /> store and provide tailored guidance <br /> on gift purchases.
                         Find a nearby store</p>
                     <p className='border border-black mt-10 p-3'>Find a nearby store</p>
                 </div>
-                <div className='w-2/3 ml-20'>
+                <div className='lg:w-2/3 lg:ml-20 image'>
                     <Swiper
                         slidesPerView={1}
                         centeredSlides={false}
@@ -66,23 +66,25 @@ const Third = () => {
                 </div>
 
             </div>
+
+
             {/* four site */}
-            <div className='flex'>
+            <div className='lg:flex'>
                 <div>
                     <img src="https://www.aesop.com/u1nb1km7t5q7/6a0rFYweQvQusUfEHpowUJ/32611c5a1ea838756fd635261d88d2db/Aesop-Generic-Images-Facial-Appointments-1-Mid-Desktop-2560x1440px.jpg" alt="" />
                 </div>
-                <div className='ml-12'>
+                <div className='sm:ml-12 facial'>
                     <h1>Facial Appointments</h1>
                     <h2 className='text-3xl'>Composure for the skin and senses</h2>
 
                     <p className='mt-7'>Composure for the skin and senses Facial Appointments
                         For a well-rounded skin care regimen, Aesop Facial Appointments offer a series of treatments tailored to balance, stimulate and intensely nourish the skin.</p>
 
-                    <p className='border border-black mt-8 p-3 w-2/3'>Learn more</p>
+                    <p className='border border-black mt-8 p-3 lg:w-2/3'>Learn more</p>
                 </div>
             </div>
 
-            <div className='mt-60 mb-60 text-center '>
+            <div className='sm:mt-60 sm:mb-60 text-center last'>
                 <h3 className='text-3xl'>‘Nothing is ever ended, everything only begun.’</h3>
                 <p className=''>Sara Teasdale</p>
             </div>
