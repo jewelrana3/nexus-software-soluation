@@ -77,13 +77,16 @@ li{
     }
 }
 @media (max-width:400px) {
+    .first h2{
+        margin-bottom: -52px;
+    }
     .doorway{
         text-align: left;
         display: block;
         background: rgb(49, 23, 4);
-        margin-top: 200px;
+        margin-top: 160px;
         padding: 24px;
-        width:372px;
+        width:397px;
     }
    
     .doorway h2{

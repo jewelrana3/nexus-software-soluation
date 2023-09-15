@@ -5,7 +5,7 @@ const Photo = () => {
         <div>
             <div>
                 <h2 className='text-center  font-bold text-4xl'></h2>
-                <div id="" className="carousel-item relative w-full text-white pt-17">
+                <div id="" className="carousel-item relative w-full text-white pt-20">
                     <img style={{ height: '40rem' }} src='https://i.ibb.co/2h9Y3pN/Aesop-Othertopias-2023-Web-Homepage-2-Primary-Full-Bleed-Desktop-2880x1044px-1.jpg' className="w-full" />
                     <div className="absolute lg:flex mx-auto mt-40">
                         <h2 className='text-4xl font-bold ml-8'>Aesop</h2>
