@@ -1,3 +1,5 @@
+import { GoArrowRight } from 'react-icons/go';
+
 // import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -22,7 +24,11 @@ const Third = () => {
                     <h1 className='text-3xl'>Store locator</h1>
                     <p className='mt-9'>Our consultants are available to host you in- <br /> store and provide tailored guidance <br /> on gift purchases.
                         Find a nearby store</p>
-                    <p className='border border-black mt-10 p-3'>Find a nearby store</p>
+                    <div className='cblack flex justify-between items-center mt-8 border border-black lg:w-3/4  p-3 '>
+                        <p className=''>Find a nearby store </p>
+                        <p><GoArrowRight /></p>
+                    </div>
+                    
                 </div>
                 <div className='lg:w-2/3 lg:ml-20 image'>
                     <Swiper
@@ -80,7 +86,10 @@ const Third = () => {
                     <p className='mt-7'>Composure for the skin and senses Facial Appointments
                         For a well-rounded skin care regimen, Aesop Facial Appointments offer a series of treatments tailored to balance, stimulate and intensely nourish the skin.</p>
 
-                    <p className='border border-black mt-8 p-3 lg:w-2/3'>Learn more</p>
+                    <div className=' cblack flex justify-between items-center mt-8 border border-black lg:w-2/3  p-3 '>
+                        <p className=''>Learn more </p>
+                        <p><GoArrowRight /></p>
+                    </div>
                 </div>
             </div>
 
