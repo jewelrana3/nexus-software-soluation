@@ -1,6 +1,6 @@
 
 
-import React, { useRef, useState } from 'react';
+// import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -111,12 +111,23 @@ const Second = () => {
                 <div className='flex'>
                     <div className='ml-12'>
                         <h1>Parsley Seed Skin Care</h1>
-                        <h1 className='mt-8 text-3xl'>In warm or humid urban settings, skin is vulnerable to a range of environmental factors.</h1>
-                        <p className='mt-3 mb-3'>Pollution, air-conditioning and the stresses of city life can heighten skin’s susceptibility to free radical damage and dehydration. Anti-oxidant rich Parsley Seed formulations help to support skin against these effects.</p>
+                        <h1 className='mt-8 text-3xl'>In warm or humid urban <br /> settings, skin is vulnerable to  a range of environmental <br /> factors.</h1>
+                        <p className='mt-3 mb-3'>Pollution, air-conditioning and the stresses of city <br /> life can heighten skin’s susceptibility to free <br /> radical damage and dehydration. Anti-oxidant rich <br /> Parsley Seed formulations help to support skin  against these effects.</p>
                         <p className='border border-black w-2/4 p-3'>Regimens for warm climates</p>
                     </div>
-                    <div>
+                    <div className='ml-10'>
                         <img src="https://i.ibb.co/rHXdXYb/Aesop-Parsley-Seed-Performance-Campaign-2020-Hybris-Homepage-Secondary-1-Mid-Desktop-1690x1185px-1.jpg" alt="" />
+                    </div>
+                </div>
+                <div className='flex mt-20'> 
+                    <div>
+                        <video loop autoPlay src='https://videos.ctfassets.net/u1nb1km7t5q7/1fy7IJOkhkLfiBJNrqqZlL/55ce2547d65d261beb120b441a0ed0df/Aesop_A_Guide_to_Fragrance_Web_Secondary_Mid_01_Rose_Desktop_1920x1080px.mp4' type="video/mp4"></video>
+                    </div>
+                    <div className='ml-10 px-10'>
+                        <h1>The Athenaeum</h1>
+                        <h2 className='mt-6 text-3xl'>Decoding Fragrance</h2>
+                        <p>The language of notes, sillage and aromatic <br /> profiles allows us to describe perfume. Discover our guide to selecting a signature fragrance.</p>
+                        <p className='border border-black w-2/4 p-3 mt-4'>Read More</p>
                     </div>
                 </div>
             </div>
