@@ -3,8 +3,36 @@
 @tailwind utilities;
 
 
+/* body{
+    overflow-x: hidden;
+} */
+
 /* style css */
 .second img{
  width: 500px;
+    height:300px;
+}
 
+li{
+    margin-right: 15px;
+}
+
+/* media sreen */
+
+@media (max-width:400px) {
+    .doorway{
+        text-align: left;
+        display: block;
+        background: rgb(49, 23, 4);
+        margin-top: 290px;
+        width:100%;
+        margin-top: 5px;
+       
+    }
+    .text-side {
+        margin-left: 12px;
+    }
+    .text-side h2{
+       font-size: 30px;
+    }
 }
