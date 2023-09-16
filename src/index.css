@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* style css */
+.second img{
+ width: 500px;
+
+}
