@@ -7,7 +7,56 @@ body {
     overflow-x: hidden;
 }
 
+
+  
+    :root {
+      
+        --secend-bg-color: #112e42;
+        --text-color: #ededed;
+        --main-color: #00abf0;
+      }
+  
+  
+  html {
+    /* overflow-x: hidden; */
+    /* font-size: 62.5%; */
+  }
+  
+
+  
 /* style css */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: #081b29;
+  }
+  
+  header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    outline: 0;
+    border: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  
+  
+  nav a {
+    margin-left: 2em;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  nav a.active {
+    color: #00abf0;
+  }
+  
+
 .second img {
     width: 500px;
     height: 300px;
@@ -34,6 +83,43 @@ li {
         display: none;
     }
 }
+
+@media (max-width:1200px) {
+    header nav {
+      position: fixed;
+      padding-top: 5rem;
+      top: 0;
+      left: -2rem;
+      height: 50%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background: white;
+      gap: 1.5rem;
+      transform: translateY(-100vh);
+  
+    }
+  
+    header .responsive_nav {
+      transform: none;
+    }
+  
+    header .nav-btn {
+      visibility: visible;
+      opacity: 1;
+      font-size: 1.3rem;
+      color: aliceblue;
+    }
+  
+    nav .nav-close-btn {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+      color: #081b29;
+    }
+   
+  
+  }
 
 @media (max-width:1024px) {
   
@@ -189,61 +275,17 @@ li {
     }
 }
 
-/* @media (max-width:400px) {
-    .first h2 {
-        margin-bottom: -52px;
-    }
 
 
-    .doorway h2 {
-        font-size: 26px;
-    }
-
-    .juyel {
-        margin: 0 6px;
-
-    }
-
-    .juyel h2 {
-        font-size: 23px;
-    }
-
-    .juyel p {
-        width: auto;
-        margin-bottom: 60px;
-    }
-
-    .decode {
-        margin: 16px;
-    }
-
-    .decode h1 {
-        margin-top: 20px;
-    }
-
-    .border {
-        width: auto;
-    }
-
-    .store {
-        margin: 15px;
-    }
-
-    .image img {
-        width: auto;
-        margin-top: 60px;
-    }
-
-    .facial {
-        margin: 15px;
-    }
-
-    .facial h2 {
-        margin-top: 20px;
-    }
-
-    .last {
-        margin-top: 6rem;
-        margin-bottom: 6rem;
-    }
+/* * {
+  text-decoration: none;
+  border: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
 } */
+
+
+
+/* break points */
+
+
