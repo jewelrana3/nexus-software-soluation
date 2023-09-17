@@ -110,14 +110,16 @@ const Second = () => {
             <div>
                 <div className='lg:flex'>
                     <div className='juyel lg:ml-12'>
-                        <h1>Parsley Seed Skin Care</h1>
-                        <h2 className='mt-8 sm:text-3xl'>In warm or humid urban <br /> settings, skin is vulnerable to  a range of environmental <br /> factors.</h2>
-                        <p className='mt-3 mb-3'>Pollution, air-conditioning and the stresses of city <br /> life can heighten skin’s susceptibility to free <br /> radical damage and dehydration. Anti-oxidant rich <br /> Parsley Seed formulations help to support skin  against these effects.</p>
-                        
-                        <div className='cblack flex justify-between mt-8 border border-black lg:w-3/4 p-3 '>
-                            <p >Regimens for warm climates</p>
-                            <p><GoArrowRight /></p>
+                        <div>
+                            <h1>Parsley Seed Skin Care</h1>
+                            <h2 className='mt-8 sm:text-3xl'>In warm or humid urban <br /> settings, skin is vulnerable to  a range of environmental <br /> factors.</h2>
+                            <p className='mt-3 mb-3'>Pollution, air-conditioning and the stresses of city <br /> life can heighten skin’s susceptibility to free <br /> radical damage and dehydration. Anti-oxidant rich <br /> Parsley Seed formulations help to support skin  against these effects.</p>
+                            <div className='cblack flex justify-between items-center mt-8 border border-black p-3 mb-6'>
+                                <p >Regimens for warm climates</p>
+                                <p><GoArrowRight /></p>
+                            </div>
                         </div>
+
                     </div>
                     <div className='lg:ml-10'>
                         <img src="https://i.ibb.co/rHXdXYb/Aesop-Parsley-Seed-Performance-Campaign-2020-Hybris-Homepage-Secondary-1-Mid-Desktop-1690x1185px-1.jpg" alt="" />

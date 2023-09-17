@@ -10,7 +10,7 @@ const Footer = () => {
                 <div>
                     <h2 className="font-bold">Subscribe to Aesop communications</h2>
                     <hr className="mt-2" />
-                    <div className='cblack flex justify-between items-center mt-8 border border-white p-3 '>
+                    <div className='email flex justify-between items-center mt-8  p-3 '>
                         <p >Email Address</p>
                         <p><GoArrowRight /></p>
                     </div>
