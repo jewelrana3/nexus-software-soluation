@@ -15,7 +15,7 @@ body {
 }
 
 /* navber */
-li{
+li {
     list-style: none;
     margin-right: 15px;
     font-size: 15px;
@@ -60,15 +60,18 @@ li{
 
 /* media sreen */
 
-@media (max-width:1380px) {
-    
-}
+@media (max-width:1380px) {}
 
 
 @media (max-width:1024px) {
-    .last-li{
+    .navbar {
+        opacity: .9;
+        position: absolute;
+    }
+    .last-li {
         display: none;
     }
+
     .photos {
         display: flex;
         gap: 40px
@@ -77,10 +80,16 @@ li{
 }
 
 @media (max-width:800px) {
-    .navbar{
-        z-index: 2;
-      
-       }
+ 
+    .last-li {
+        display: none;
+
+    }
+
+    .aesop {
+        display: none;
+    }
+
     .photos {
         display: block;
 
@@ -104,21 +113,27 @@ li{
 }
 
 @media (max-width:600px) {
-   .navbar{
-  
-    opacity: 0.9;
-    position: absolute;
-   }
-.last-li{
-    display: none;
-   
-}
-li{
-    margin-top: 14px;
-}
-.aesop{
-    display: none;
-}
+    .navbar ul{
+        opacity: .5;
+        position: absolute;
+    }
+    .man p{
+        color: white;
+    }
+
+    .last-li {
+        display: none;
+
+    }
+
+    li {
+        margin-top: 14px;
+    }
+
+    .aesop {
+        display: none;
+    }
+
     .photos {
         display: block;
     }
