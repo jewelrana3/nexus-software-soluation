@@ -10,25 +10,18 @@ const Navber = () => {
 
 
     const navItem =
-        <>
+        <div className='list flex cursor-pointer'>
             <li>Skin Care</li>
             <li>Body & Hand</li>
             <li>Hair</li>
             <li>Fragrance</li>
             <li>Home</li>
             <li>Kits & Travel</li>
-            <li>Gits</li>
-            <li>Read</li>
-            <li>Stores</li>
-            <li>Facial Appointments</li>
-            <div className='flex ml-20'>
-                <li>Log in</li>
-                <li>Cabinet</li>
-                <li>Cart</li>
-            </div>
+          
+            
 
 
-        </>
+        </div>
 
     return (
         <div className="navbar  sm:bg-slate-300 text-black z-10 w-full lg:px-6">
@@ -54,7 +47,7 @@ const Navber = () => {
                 </div>
             </div>
 
-            <div className="navbar-end last-li">
+            <div className="navbar-end last-li cursor-pointer">
                 <li>Log in</li>
                 <li>Cabinet</li>
                 <li>Cart</li>

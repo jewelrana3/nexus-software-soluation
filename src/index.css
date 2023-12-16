@@ -58,6 +58,11 @@ li {
     border: 1px solid white;
 }
 
+.list li{
+    display: flex;
+    margin: 10px;
+}
+
 /* media sreen */
 
 @media (max-width:1380px) {}
